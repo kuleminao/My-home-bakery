@@ -3,18 +3,49 @@ body {
   font-weight: bold;
 }
 .hero {
-  background-image: url("../images/background.jpg");
-  margin: 20px auto;
+  background: #f7edee;
+  margin: 40px auto;
   padding: 50px;
   color: black;
   text-align: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
 h1 {
   font-size: 72px;
+  line-height: 1.5;
 }
+
 h3 {
-  font-size: 14px;
-  opacity: 0.7;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.button {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+img {
+  width: 50%;
+  margin: 30px;
+  border-radius: 10px;
+}
+p {
+  font-weight: normal;
+}
+
+.bg-grey {
+  background: ghostwhite;
+  border-radius: 10px;
+}
+
+.bg-pink {
+  background: #f7edee;
+  border-radius: 10px;
+}
+
+.food-description {
+  margin: 60px 40px;
 }
