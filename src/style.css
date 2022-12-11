@@ -22,38 +22,44 @@ h3 {
   opacity: 0.8;
 }
 
+h2 {
+  font-size: 27px;
+  line-height: 1.5;
+}
+
 .button {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
 
-.about-section {
+.content-container {
   text-align: center;
   margin: 40px auto;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section-content {
+.content {
   padding: 30px;
   text-align: justify;
 }
 @media (max-width: 900px) {
-  .about-section-content {
+  .content {
     text-align: center;
   }
 }
 
 img {
-  width: 50%;
+  width: 60%;
   margin: 30px;
   border-radius: 10px;
 }
 p {
   font-weight: normal;
+  font-size: 15px;
 }
 
 .bg-grey {
